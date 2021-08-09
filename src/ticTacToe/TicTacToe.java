@@ -42,6 +42,12 @@ public class TicTacToe {
 			}
 		}		
 		
+		if (boardArray[1][1] != ' ' && ((boardArray[0][0] == boardArray[1][1] && boardArray[2][2] == boardArray[1][1])
+				|| (boardArray[2][0] == boardArray[1][1] && boardArray[0][2] == boardArray[1][1]))) {
+			return "Player " + boardArray[1][1] + " won with a diagonal line.";
+
+		}
+		
 		return "";
 	}
 	
