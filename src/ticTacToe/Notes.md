@@ -71,8 +71,10 @@ Pomodoro session log:
             ✔ run test 4 GREEN     
             ✔ prepare next test case (5 - Game ends with a draw)   
             ✔ run test 5 RED    
-            📃 implement evaluation of draw check
-            📃 run test 5 GREEN 
+            ✔ implement evaluation of draw check
+            ✔ run test 5 GREEN
+            
+             
             
                 
                         
