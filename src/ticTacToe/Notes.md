@@ -40,6 +40,6 @@ Pomodoro session log:
             
             ✔ create initial test case
             ✔ run initial test RED
-            ✔ run initial test GREEN 
+            📃 run initial test GREEN 
 
 
