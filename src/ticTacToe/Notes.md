@@ -74,11 +74,11 @@ Pomodoro session log:
             ✔ implement evaluation of draw check
             ✔ run test 5 GREEN
             
-    4. Pomodoro session:
+    5. Pomodoro session:
         Plan:
-            🚧 modify program structure
             
-            📃 Let the BOTs play
+            ✔ Refactoring
+            🚧 Let the BOTs play
             
              
             
