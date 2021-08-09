@@ -38,7 +38,7 @@ Pomodoro session log:
             ✔ create source files
             🚧 plan program structure
             
-            ✔ create initial test case
+            ✔ create initial test case (empty board)
             ✔ run initial test RED
             ✔ run initial test GREEN 
 
@@ -51,6 +51,28 @@ Pomodoro session log:
             ✔ run initial test RED
             ✔ run initial test GREEN
             ✔ write to console
-            🚧 prepare next test case (Player X won with a vertical line.)
+            ✔ prepare next test case (2 - Player X won with a vertical line.)
+            ✔ run test 2 RED
+            ✔ implement evaluation of vertical line check
+            ✔ run test 2 GREEN
+            
+            
+    4. Pomodoro session:
+        Plan:
+            🚧 modify program structure
+            
+			📃 prepare next test case (3 - Player O won with a horizontal line)          
+            📃 run test 3 RED
+            📃 implement evaluation of horizontal line check
+            📃 run test 3 GREEN
+			📃 prepare next test case (4 - Player X won with a diagonal line)          
+            📃 run test 4 RED
+            📃 implement evaluation of diagonal line check
+            📃 run test 4 GREEN     
+            📃 prepare next test case (5 - Game ends with a draw)   
+            📃 run test 5 RED    
+            📃 implement evaluation of draw check
+            📃 run test 5 GREEN     
+                        
             
 
