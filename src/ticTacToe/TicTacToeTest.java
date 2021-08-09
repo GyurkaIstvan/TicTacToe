@@ -37,4 +37,10 @@ class TicTacToeTest {
 		System.out.println("Player X won with a diagonal line.");
 	}
 
+	@Test
+	void testEvaluateEndedWithADraw() {
+		char[][] gameBoard = { { 'X', 'O', 'X' }, { 'O', 'O', 'X' }, { 'X', 'X', 'O' } };
+		assertEquals("Game ended with a draw.", TicTacToe.evaluate(gameBoard));
+	}
+
 }

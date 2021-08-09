@@ -69,10 +69,12 @@ Pomodoro session log:
             ✔ run test 4 RED
             ✔ implement evaluation of diagonal line check
             ✔ run test 4 GREEN     
-            📃 prepare next test case (5 - Game ends with a draw)   
-            📃 run test 5 RED    
+            ✔ prepare next test case (5 - Game ends with a draw)   
+            ✔ run test 5 RED    
             📃 implement evaluation of draw check
-            📃 run test 5 GREEN     
+            📃 run test 5 GREEN 
+            
+                
                         
             
 
