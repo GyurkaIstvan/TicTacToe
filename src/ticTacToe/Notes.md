@@ -37,5 +37,8 @@ Pomodoro session log:
             ✔ plan test cases
             ✔ create source files
             🚧 plan program structure
+            
+            📃 create initial test case
+            📃 run initial test
 
 
