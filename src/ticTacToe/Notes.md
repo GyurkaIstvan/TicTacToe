@@ -39,6 +39,7 @@ Pomodoro session log:
             🚧 plan program structure
             
             ✔ create initial test case
-            📃 run initial test
+            ✔ run initial test RED
+            ✔ run initial test GREEN 
 
 

@@ -9,18 +9,9 @@ import ticTacToe.TicTacToe;
 class TicTacToeTest {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
-
-	
-	@Test
 	void testEvaluateAtStart() {
-		char[][] gameBoard = { 	{ ' ', ' ', ' ' },
-								{ ' ', ' ', ' ' },
-								{ ' ', ' ', ' ' } };
+		char[][] gameBoard = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
 		assertEquals("Board created.", TicTacToe.evaluate(gameBoard));
 	}
-	
-	
+
 }
