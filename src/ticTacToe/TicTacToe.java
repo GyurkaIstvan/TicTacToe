@@ -9,7 +9,22 @@ public class TicTacToe {
 		char[][] gameBoard = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
 		char player = 'X';
 
-		evalResult = evaluate(gameBoard);
+		System.out.println("Game board creation...");
+
+		for (int i = 0; i < 9; i++) {
+			// place(gameBoard, player);
+			if (player == 'X') {
+				player = 'O';
+			} else {
+				player = 'X';
+			}
+			evalResult = evaluate(gameBoard);
+			if (evalResult != "Waiting for next step.") {
+				i = 10;
+			}
+
+		}
+
 		System.out.println(evalResult);
 		printBoard(gameBoard);
 
