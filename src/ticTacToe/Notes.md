@@ -40,6 +40,16 @@ Pomodoro session log:
             
             ✔ create initial test case
             ✔ run initial test RED
-            📃 run initial test GREEN 
+            ✔ run initial test GREEN 
 
+
+    3. Pomodoro session:
+        Plan:
+            🚧 plan program structure
+            
+            ✔ create initial test case (Empty board)
+            ✔ run initial test RED
+            ✔ run initial test GREEN 
+            🚧 prepare next test case (Player X won with a vertical line.)
+            
 
