@@ -6,10 +6,9 @@ public class TicTacToe {
 		// TODO Auto-generated method stub
 
 		String evalResult = "";
-//		char[][] gameBoard = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
+		char[][] gameBoard = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
 
-		char[][] gameBoard = { { 'X', ' ', ' ' }, { 'X', 'O', ' ' }, { 'X', ' ', 'O' } };
-		
+	
 		evalResult = evaluate(gameBoard);
 		System.out.println(evalResult);
 		printBoard(gameBoard);

@@ -21,4 +21,10 @@ class TicTacToeTest {
 
 	}
 
+	@Test
+	void testEvaluateOWonWithHorizontalLine() {
+		char[][] gameBoard = { { 'X', ' ', 'X' }, { 'O', 'O', 'O' }, { 'X', ' ', ' ' } };
+		assertEquals("Player O won with a horizontal line.", TicTacToe.evaluate(gameBoard));
+	}
+
 }
