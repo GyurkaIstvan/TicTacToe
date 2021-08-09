@@ -78,7 +78,8 @@ Pomodoro session log:
         Plan:
             
             ✔ Refactoring
-            🚧 Let the BOTs play
+            ✔ Add game flow
+            ✔ Let the BOTs play
             
              
             

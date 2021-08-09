@@ -1,5 +1,8 @@
 package ticTacToe;
 
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
+
 public class TicTacToe {
 
 	public static void main(String[] args) {
@@ -12,7 +15,7 @@ public class TicTacToe {
 		System.out.println("Game board creation...");
 
 		for (int i = 0; i < 9; i++) {
-			// place(gameBoard, player);
+			place(gameBoard, player);
 			if (player == 'X') {
 				player = 'O';
 			} else {
@@ -61,7 +64,7 @@ public class TicTacToe {
 			return "Game ended with a draw.";
 		}
 
-		return "";
+		return "Waiting for next step.";
 	}
 
 	public static void printBoard(char[][] boardArray) {
@@ -126,5 +129,33 @@ public class TicTacToe {
 		}
 		return false;
 	}
+	
+	static void place(char[][] boardArray, char player) {
+
+		try {
+			TimeUnit.MILLISECONDS.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+//		Here should be a clearscreen;
+
+		Random rand = new Random();
+		int xPos = rand.nextInt(3);
+		int yPos = rand.nextInt(3);
+		// System.out.println("Player " + player + " tried to place on " + xPos + "," +
+		// yPos);
+
+		while (boardArray[xPos][yPos] != ' ') {
+			xPos = rand.nextInt(3);
+			yPos = rand.nextInt(3);
+			// System.out.println("Reserved, try again at " + xPos + "," + yPos);
+		}
+		boardArray[xPos][yPos] = player;
+		System.out.println("Player " + player + " placed on " + xPos + "," + yPos);
+		// return boardArray;
+	}
+	
 
 }
