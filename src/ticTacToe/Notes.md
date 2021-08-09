@@ -61,8 +61,8 @@ Pomodoro session log:
         Plan:
             🚧 modify program structure
             
-			📃 prepare next test case (3 - Player O won with a horizontal line)          
-            📃 run test 3 RED
+			✔ prepare next test case (3 - Player O won with a horizontal line)          
+            ✔ run test 3 RED
             📃 implement evaluation of horizontal line check
             📃 run test 3 GREEN
 			📃 prepare next test case (4 - Player X won with a diagonal line)          
