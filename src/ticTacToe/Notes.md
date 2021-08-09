@@ -7,8 +7,20 @@ Legend
 
 UAT Scenarios
 
+1 – Game Board Creation phase
+2 – Player X won with a vertical line
+3 – Player O won with a horizontal line
+4 – Player X won with a diagonal line
+5 – Game ends with a draw
+
 
 Test cases
+
+    📃 draw new game board
+    📃 Player X won with a vertical line
+    📃 Player O won with a horizontal line
+    📃 Player X won with a diagonal line
+    📃 Game ends with a draw
 
 
 Pomodoro session log:
@@ -21,10 +33,9 @@ Pomodoro session log:
 
     2. Pomodoro session:
         Plan:
-            Continued...
-            📃 add UAT scenarios
-            📃 plan test cases
-            📃 plan program structure
-            📃 create source files
+            ✔ add UAT scenarios
+            ✔ plan test cases
+            ✔ create source files
+            🚧 plan program structure
 
 
