@@ -35,6 +35,12 @@ public class TicTacToe {
 			}
 		}
 		
+		for (int i = 0; i < 3; i++) {
+			if (boardArray[i][0] != ' '
+					&& (boardArray[i][0] == boardArray[i][1] && boardArray[i][0] == boardArray[i][2])) {
+				return "Player " + boardArray[i][0] + " won with a horizontal line.";
+			}
+		}		
 		
 		return "";
 	}
