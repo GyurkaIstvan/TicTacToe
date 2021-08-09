@@ -16,11 +16,11 @@ UAT Scenarios
 
 Test cases
 
-    📃 draw new game board
-    📃 Player X won with a vertical line
-    📃 Player O won with a horizontal line
-    📃 Player X won with a diagonal line
-    📃 Game ends with a draw
+    ✔ draw new game board
+    ✔ Player X won with a vertical line
+    ✔ Player O won with a horizontal line
+    ✔ Player X won with a diagonal line
+    ✔ Game ends with a draw
 
 
 Pomodoro session log:
@@ -73,6 +73,12 @@ Pomodoro session log:
             ✔ run test 5 RED    
             ✔ implement evaluation of draw check
             ✔ run test 5 GREEN
+            
+    4. Pomodoro session:
+        Plan:
+            🚧 modify program structure
+            
+            📃 Let the BOTs play
             
              
             
